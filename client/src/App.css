@@ -1,0 +1,219 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.center{
+  margin:auto;
+}
+
+
+/* home page starts */
+.homepage{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right,rgb(215, 185, 243)49%,rgb(255,255,255)50%);
+}
+.homeh4{
+  font-family: 'Lato', sans-serif;
+}
+.parahome{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.signup-content,.login-content,.error-content,.about-content{
+   display: flex;
+   position: relative;
+   width:75%;
+   border-radius: 20px;
+   box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 30%);
+   
+}
+
+
+.signup-form,.login-form{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup-image,.login-img{
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-image img,.login-img img{
+ width:280px;
+}
+label {
+  display: inline-block;
+  width: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+.form-group{
+  border-bottom: 1px solid black;
+}
+
+form input{
+  width:200px;
+  outline: none;
+  border: none;
+}
+
+/* contact starts */
+
+.contact-top-content,.contact-bottom-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxes{
+ 
+  width:30%;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.img1{
+    height: 50px;
+    border-radius: 20%;
+}
+
+.contact-content{
+  
+   width:80%;
+   border-radius: 20px;
+   box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 30%);
+   
+}
+.contact-content .form{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+}
+.box{
+  margin: 10px;
+  width:25%;
+  align-items: center;
+  border-radius: 9px;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 30%);
+}
+.box input{
+  padding:9px  !important;
+  border-radius: 9px  !important;
+}
+
+.txtbtn{
+  flex-direction: column;
+  justify-content: center;
+}
+
+.txtbtn textarea{
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0px 2px 5px 0px rgb(0 0 0 / 30%);
+  outline: none;
+  padding: 9px;
+}
+
+.txtbtn .btn{
+    
+  justify-content: flex-start;
+
+  
+}
+/* about us starts */
+
+
+/* error-page starts */
+.error-content{
+  flex-direction: column;
+  box-shadow: 0px 2px 6px 2px red;
+}
+
+.error-content img{
+  height: 200px;
+  width:200px;
+  margin:auto;
+}
+
+.content-in-error{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.content-in-error h2{
+  text-align: center;
+  font-size: 1.4rem;
+}
+.content-in-error h1{
+  color: red;
+  text-shadow: 2px 2px 5px rgb(243, 165, 165) ;
+}
+
+.btn1{
+  display: flex;
+  justify-content: center;
+  border:2px solid red;
+  border-radius: 20px;
+  width:20%;
+  box-shadow: 0px 3px 5px 0px rgb(90, 86, 86);
+  margin:auto;
+  color: rgb(58, 58, 58);
+}
+
+.btn1:hover{
+  color:white;
+  background-color: rgb(243, 54, 54);
+  transition: all 0.5s;
+  text-decoration: none;
+  border:2px solid white;
+}
+
+#carouselExampleControls{
+      background-color: aqua !important;
+}
+
+.about-content{
+  flex-direction: column;
+}
+
+.about-content img{
+  height: 250px;
+}
+
+.profile label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.profile .form-group{
+  border-bottom: none;
+}
+
+.profile form input{
+  width:180px;
+  outline: none;
+  
+ 
+}
